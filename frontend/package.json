@@ -16,7 +16,6 @@
     "vite": "^8.3.5"
   },
   "dependencies": {
-    "@rollup/rollup-win32-x64-msvc": "^4.65.1",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   }
