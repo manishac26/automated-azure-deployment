@@ -1,0 +1,14 @@
+{
+  "model": "random_rf",
+  "search_method": "random",
+  "best_params": {
+    "min_samples_split": 2,
+    "min_samples_leaf": 2,
+    "max_features": 0.4,
+    "max_depth": 40,
+    "class_weight": "balanced"
+  },
+  "search_cv_f1": 0.9966782341257975,
+  "search_cv_std": 0.00018282797125949638,
+  "search_seconds": 281.06611020000037
+}

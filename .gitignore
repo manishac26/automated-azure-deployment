@@ -1,0 +1,69 @@
+﻿# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Frontend dependencies/build output
+node_modules/
+**/node_modules/
+frontend/dist/
+dist/
+dist-ssr/
+
+# Raw dataset and large generated data
+MachineLearningCSV/
+data/raw/
+data/processed/
+*.csv
+*.npy
+*.npz
+*.parquet
+
+# Model artifacts are transferred separately if needed
+models/*.joblib
+
+# Generated logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Terraform state and local secrets, if Terraform is added here
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform.tfvars
+
+# Temporary development/debug scripts
+scripts/_check_*
+scripts/_debug_*
+scripts/_env.py
+scripts/_fix_tests.py
+scripts/_make_ex.py
+scripts/_pct.py
+scripts/_pred_test.py
+scripts/_pycompile.py
+scripts/_schema.py
+scripts/_schema_check.py
+scripts/_summary.py
+scripts/_test_api_start.py
+scripts/_test_nan.py
+scripts/_vers.py
+scripts/_verify.py
+scripts/_write_*

@@ -1,0 +1,12 @@
+{
+  "model": "grid_rf",
+  "search_method": "grid",
+  "best_params": {
+    "max_depth": 20,
+    "max_features": 0.3,
+    "min_samples_leaf": 1
+  },
+  "search_cv_f1": 0.9957315142101789,
+  "search_cv_std": 0.0006030210950621851,
+  "search_seconds": 669.9443592999996
+}

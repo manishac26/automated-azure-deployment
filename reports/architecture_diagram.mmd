@@ -1,0 +1,12 @@
+flowchart TD
+  A[Raw CIC-IDS2017 CSVs] --> B[Audit & Normalize]
+  B --> C[Preprocess: drop constants/dups, remove conflicts, deduplicate, impute]
+  C --> D[Clean memmap + meta + schema]
+  D --> E[Stratified splits]
+  E --> F[Baseline RF]
+  E --> G[Grid/Random/Optuna RF]
+  E --> H[FLAML AutoML]
+  F --> I[Evaluation + threshold tuning]
+  G --> I
+  H --> I
+  I --> J[Reports + API + Tests]

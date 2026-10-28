@@ -1,0 +1,9 @@
+{
+  "model": "flaml_automl",
+  "method": "permutation_importance",
+  "scoring": "f1",
+  "n_repeats": 10,
+  "sample_size": 10000,
+  "random_state": 42,
+  "notes": "Feature importance is not causal. Computed on a stratified/random sample of test set due to compute limits."
+}
